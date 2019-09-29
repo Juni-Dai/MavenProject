@@ -20,7 +20,7 @@ public class IndexServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		response.getWriter().print("hello maven");
+		response.getWriter().print("hello maven and git");
 	}
 
 	/**
